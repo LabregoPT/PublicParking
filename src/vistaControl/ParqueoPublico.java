@@ -13,8 +13,10 @@ public class ParqueoPublico extends Application {
          Parent root =
             FXMLLoader.load(getClass().getResource("ParqueoPublico.fxml"));
 
+         stage.setTitle("Parqueo Público");
+
          Scene scene = new Scene(root); // attach scene graph to scene
-         // To add a line
+         // To add a line	
          stage.setScene(scene); // attach scene to stage
          stage.show(); // display the stage
       }
